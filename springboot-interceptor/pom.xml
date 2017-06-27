@@ -1,0 +1,131 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>qg.fangrui.springboot</groupId>
+  <artifactId>myspringboot</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>myspringboot Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.2.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+    </dependency>
+
+      <!--springboot-->
+
+
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-jdbc</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-aop</artifactId>
+      </dependency>
+ <!-- thmleaf模板依赖. -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+      <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
+     <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-devtools</artifactId>
+          <optional>true</optional>
+      </dependency>
+
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter</artifactId>
+          <exclusions>
+              <exclusion>
+                  <groupId>org.springframework.boot</groupId>
+                  <artifactId>spring-boot-starter-logging</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+ <dependency>
+      <groupId>org.mybatis.spring.boot</groupId>
+      <artifactId>mybatis-spring-boot-starter</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+ <!--Druid-->
+      <dependency>
+          <groupId>com.alibaba</groupId>
+          <artifactId>druid</artifactId>
+          <version>1.0.20</version>
+      </dependency>
+
+    <!--mysql驱动-->
+      <dependency>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <scope>runtime</scope>
+      </dependency>
+
+      <!--log4j2-->
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-log4j2</artifactId>
+      </dependency>
+<dependency>
+  <groupId>log4j</groupId>
+  <artifactId>log4j</artifactId>
+  <version>1.2.17</version>
+   <!--<scope>test</scope>-->
+   <exclusions>
+        <exclusion>
+          <groupId>com.sun.jdmk</groupId>
+          <artifactId>jmxtools</artifactId>
+        </exclusion>
+        <exclusion>
+           <groupId>com.sun.jmx</groupId>
+           <artifactId>jmxri</artifactId>
+        </exclusion>
+    </exclusions>
+ </dependency>
+      <!--Email-->
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-mail</artifactId>
+      </dependency>
+      <!--freemarker模板引擎-->
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-freemarker</artifactId>
+      </dependency>
+
+  </dependencies>
+  <build>
+    <finalName>myspringboot</finalName>
+    <plugins>
+      <plugin>
+        <!--Spring Boot Maven插件:可以将项目打包成一个可执行jar-->
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+</project>
