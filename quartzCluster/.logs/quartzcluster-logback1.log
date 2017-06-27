@@ -1,0 +1,107 @@
+2686 [restartedMain] INFO  com.neusoft.spring.MainApplication - Starting MainApplication on hp-PC with PID 6724 (E:\eclipse2\workspase\quartzCluster\target\classes started by hp in E:\eclipse2\workspase\quartzCluster)
+2687 [restartedMain] DEBUG com.neusoft.spring.MainApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2687 [restartedMain] INFO  com.neusoft.spring.MainApplication - No active profile set, falling back to default profiles: default
+11390 [restartedMain] INFO  com.neusoft.spring.MainApplication - Started MainApplication in 9.259 seconds (JVM running for 12.255)
+12474 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 1
+14075 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 2
+17475 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 2
+19077 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 2
+24064 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 3
+29068 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 3
+34071 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 4
+39071 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 4
+44195 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 5
+49196 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 5
+54150 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 6
+59150 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 6
+64062 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 7
+69062 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 7
+74066 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 8
+79066 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 8
+84062 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 9
+89063 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 9
+94070 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 10
+99071 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 10
+104082 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 11
+109082 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 11
+114064 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 12
+119067 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 12
+124069 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 13
+129069 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 13
+134072 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 14
+139077 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 14
+144064 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 15
+149064 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 15
+154084 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 16
+159095 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 16
+164076 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 17
+169077 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 17
+174141 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 18
+179141 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 18
+184063 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 19
+189064 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 19
+194071 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 20
+199073 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 20
+204077 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 21
+209079 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 21
+214070 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 22
+219070 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 22
+224065 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 23
+229065 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 23
+234069 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 24
+239070 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 24
+244104 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 25
+249105 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 25
+254262 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 26
+259263 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 26
+264082 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 27
+269083 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 27
+274081 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 28
+279086 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 28
+2503 [restartedMain] INFO  com.neusoft.spring.MainApplication - Starting MainApplication on hp-PC with PID 4636 (E:\eclipse2\workspase\quartzCluster\target\classes started by hp in E:\eclipse2\workspase\quartzCluster)
+2504 [restartedMain] DEBUG com.neusoft.spring.MainApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2504 [restartedMain] INFO  com.neusoft.spring.MainApplication - No active profile set, falling back to default profiles: default
+7823 [restartedMain] INFO  com.neusoft.spring.MainApplication - Started MainApplication in 5.853 seconds (JVM running for 9.017)
+8755 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 1
+11021 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 2
+13756 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 2
+16023 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 2
+21029 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 3
+26029 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 3
+31023 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 4
+36024 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 4
+41057 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 5
+46058 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 5
+51021 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 6
+56021 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 6
+61020 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 7
+66021 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 7
+71020 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 8
+76021 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 8
+81020 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 9
+86021 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 9
+91037 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 10
+96038 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 10
+98366 [restartedMain] INFO  com.neusoft.spring.MainApplication - Starting MainApplication on hp-PC with PID 4636 (E:\eclipse2\workspase\quartzCluster\target\classes started by hp in E:\eclipse2\workspase\quartzCluster)
+98367 [restartedMain] DEBUG com.neusoft.spring.MainApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+98367 [restartedMain] INFO  com.neusoft.spring.MainApplication - No active profile set, falling back to default profiles: default
+100027 [restartedMain] INFO  com.neusoft.spring.MainApplication - Started MainApplication in 1.715 seconds (JVM running for 101.217)
+110587 [restartedMain] INFO  com.neusoft.spring.MainApplication - Starting MainApplication on hp-PC with PID 4636 (E:\eclipse2\workspase\quartzCluster\target\classes started by hp in E:\eclipse2\workspase\quartzCluster)
+110587 [restartedMain] DEBUG com.neusoft.spring.MainApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+110588 [restartedMain] INFO  com.neusoft.spring.MainApplication - No active profile set, falling back to default profiles: default
+112003 [restartedMain] INFO  com.neusoft.spring.MainApplication - Started MainApplication in 1.477 seconds (JVM running for 113.193)
+113139 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 1
+113145 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 2
+636  [restartedMain] INFO  com.neusoft.spring.MainApplication - Starting MainApplication on hp-PC with PID 5076 (E:\eclipse2\workspase\quartzCluster\target\classes started by hp in E:\eclipse2\workspase\quartzCluster)
+637  [restartedMain] DEBUG com.neusoft.spring.MainApplication - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+637  [restartedMain] INFO  com.neusoft.spring.MainApplication - No active profile set, falling back to default profiles: default
+4023 [restartedMain] INFO  com.neusoft.spring.MainApplication - Started MainApplication in 3.656 seconds (JVM running for 4.148)
+4798 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 1
+4817 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 2
+9799 [quartzScheduler_Worker-1] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 2
+9818 [quartzScheduler_Worker-2] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 2
+10918 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 3
+15918 [quartzScheduler_Worker-3] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 3
+20916 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 4
+25928 [quartzScheduler_Worker-4] DEBUG com.neusoft.spring.task.ClusterJob - end end end end end end end end end end end end ! job = 4
+30912 [quartzScheduler_Worker-5] DEBUG com.neusoft.spring.task.ClusterJob - begin begin begin begin begin begin begin begin ! job = 5

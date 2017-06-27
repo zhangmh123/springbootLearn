@@ -1,0 +1,5 @@
+com\neusoft\spring\ServletInitializer.class
+com\neusoft\spring\controller\HelloController.class
+com\neusoft\spring\MainApplication.class
+com\neusoft\spring\task\ClusterJob.class
+com\neusoft\spring\schedule\quartz\MyDetailQuartzJobBean.class

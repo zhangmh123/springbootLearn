@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+    http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd"
+    default-lazy-init="false" default-autowire="byName">
+
+    <!-- ClusterJob -->
+    <bean id="clusterJob" class="com.neusoft.spring.task.ClusterJob" />
+
+     <bean id="clusterJobDetail" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="jobClass">
+            <value>com.neusoft.spring.schedule.quartz.MyDetailQuartzJobBean</value>
+        </property>
+        <property name="jobDataAsMap">
+            <map>
+                <entry key="targetObject" value="clusterJob" />
+                <entry key="targetMethod" value="execute" />
+             </map>
+         </property> 
+     </bean>
+    
+    <!-- ClusterCronTriggerBean -->
+    <bean id="clusterCronTriggerBean" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="clusterJobDetail" />
+        <property name="cronExpression" value="0/10 * * * * ? *" /> <!-- 每10秒触发一次 -->
+    </bean>
+
+    <!-- ClusterSchedulerFactoryBean -->
+    <bean id="quartzScheduler"
+    class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="configLocation" value="classpath:quartz.properties"/>
+         <property name="startupDelay" value="1" />   
+          <property name="autoStartup" value="true" />   
+        <property name="triggers">
+            <list>
+                <ref bean="clusterCronTriggerBean" />
+            </list>
+        </property>
+        <property name="applicationContextSchedulerContextKey" value="applicationContext" />
+    </bean> 
+
+</beans>
