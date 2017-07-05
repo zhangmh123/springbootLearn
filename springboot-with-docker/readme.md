@@ -11,6 +11,7 @@ ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urando
 http://blog.csdn.net/qq_30259339/article/details/52400673
 #Linux添加加速器
 #阿里云加速器(要到阿里云开发者平台注册账号获取加速器地址)
+echo "DOCKER_OPTS=\"\$DOCKER_OPTS --registry-mirror=https://xxxx.mirror.aliyuncs.com\"" | sudo tee -a /etc/default/docker
 echo "DOCKER_OPTS=\"--registry-mirror=https://xxxx.mirror.aliyuncs.com\"" | sudo tee -a /etc/default/dockersudo
 #网易加速器
 echo "DOCKER_OPTS=\"--registry-mirror=http://hub-mirror.c.163.com\"" | sudo tee -a /etc/default/dockersudo
